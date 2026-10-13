@@ -1,2 +1,2 @@
 def string_to_int_list(s):
-    return [x for x in s.split(",")]
+    return [int(x) for x in s.split(",")]
