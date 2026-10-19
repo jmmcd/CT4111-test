@@ -3,5 +3,5 @@ def running_total(nums):
     total = 0
     for x in nums:
         total += x
-        totals.append(x)
+        totals.append(total)
     return totals
