@@ -3,4 +3,4 @@ def index_of_max(nums):
     for i in range(len(nums)):
         if nums[i] > nums[best]:
             best = i
-    return nums[best]
+    return best
