@@ -1,3 +1,3 @@
 def rotate_list(items, k):
-    k = (k + 1) % len(items)
+    k = k % len(items)
     return items[k:] + items[:k]
